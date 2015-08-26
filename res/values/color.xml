@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#ffffff</color>
+    <color name="text_white_shadow_color">#ff5a9487</color>
+    <color name="danlanse">#87ceea</color>
+    <color name="huoyaolan">#b0e0e6</color>
+    <color name="chunbai">#ffffff</color>
+    <color name="danlvse">#90ee90</color>
+    <color name="qianhuise">#dcdcdc</color>
+    <color name="shenhuise">#a9a9a9</color>
+    <color name="base_bg">#f4f6f6</color>
+    <color name="lvse">#3cb371</color>
+    <color name="chengse">#ffa500</color>
+    <color name="red">#ff0000</color>
+    <color name="grey">#CFCFCF</color>
+    <color name="grey_dark">#B5B5B5</color>
+    <color name="action_red">#D01839</color>
+    <color name="transparent">#00000000</color>
+    <color name="background">#F7F4F0</color>
+    <color name="title_color">#333333</color>
+    <color name="blue_pressed">#ff0099cc</color>
+    <color name="blue_normal">#ff33b5e5</color>
+    <color name="green_complete">#ff99cc00</color>
+    <color name="purple_progress">#ffaa66cc</color>
+    <color name="red_error">#ffff4444</color>
+    <color name="holo_blue_bright">#ff00ddff</color>
+    <color name="holo_green_light">#ff99cc00</color>
+    <color name="holo_orange_light">#ffffbb33</color>
+    <color name="holo_red_light">#ffff4444</color>
+    <color name="cpb_grey">#ffdedede</color>
+    <color name="cpb_blue">#ff0099cc</color>
+    <color name="cpb_blue_dark">#ff00719b</color>
+    <color name="cpb_red">#ffff4444</color>
+    <color name="cpb_red_dark">#ffcd3a3a</color>
+    <color name="cpb_green">#ff99cc00</color>
+    <color name="cpb_green_dark">#ff6d9b00</color>
+    <color name="cpb_white">@android:color/white</color>
+    <!-- 白透明效果 -->
+    <color name="sc_transparent_background">#00111111</color>
+    <color name="yellow">#ffff981e</color>
+    <color name="primary">#03A9F4</color>
+    <color name="orange">#fffaaa00</color>
+     <color name="material_blue_grey_800">#ff37474f</color>
+
+</resources>

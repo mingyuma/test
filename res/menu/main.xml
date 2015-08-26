@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.imagemanager6.MainActivity" >
+
+    <item
+        android:id="@+id/tel_menu"
+        android:icon="@drawable/tel"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="拨打电话"/>
+    <item
+        android:id="@+id/dele_menu"
+        android:icon="@drawable/delete_menu"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="删除"/>
+
+</menu>

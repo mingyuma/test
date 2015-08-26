@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string-array name="bodylocation">
+        <item>头部</item>
+        <item>颈部</item>
+        <item>胸部</item>
+        <item>腹部 </item>
+        <item>腰部 </item>
+        <item>男性生殖</item>
+        <item>女性生殖</item>
+        <item>全身</item>
+        <item>上肢</item>
+        <item>下肢</item>
+        <item>盆腔</item>
+        <item>臀部</item>
+        <item>骨</item>
+    </string-array>
+    <string-array name="bodydetail">
+        <item>颅脑/眼/鼻</item>
+        <item>气管</item>
+        <item>乳房/肺</item>
+        <item>胃/肠/肝 </item>
+        <item>肾/肾上腺</item>
+        <item>前列腺/睾丸</item>
+        <item>子宫</item>
+        <item>皮肤/淋巴</item>
+        <item>肩部/肘部</item>
+        <item>膝部/足部</item>
+        <item>膀胱/尿道</item>
+        <item>肛门</item>
+        <item>骨髓/上肢骨</item>
+    </string-array>
+    <string-array name="bodyimage">
+        <item>肩部影像</item>
+        <item>脚部影像</item>
+        <item>髋部影像</item>
+        <item>手臂影像 </item>
+        <item>手掌影像</item>
+        <item>头部影像</item>
+        <item>腿部影像</item>
+        <item>胸部影像</item>
+    </string-array>
+    <string-array name="modelname">
+        <item>钢板模型</item>
+        <item>钢钉模型</item>
+        <item>骨折模型</item>
+    </string-array>
+    <string-array name="gangbanname">
+        <item>3孔T型板</item>
+        <item>3孔T型支持板</item>
+        <item>3孔锁定板</item>
+        <item>4孔L型支持板</item>
+        <item>4孔L型支持锁定板</item>
+        <item>4孔T型板</item>
+        <item>4孔T型锁定板</item>
+        <item>4孔T型支持板</item>
+        <item>4孔T型支持锁定板</item>
+        <item>4孔非锁定板</item>
+        <item>5孔L型支持板</item>
+        <item>5孔L型支持锁定板</item>
+        <item>5孔T型板</item>
+        <item>5孔T型锁定板</item>
+        <item>5孔T型支持板</item>
+        <item>5孔T型支持锁定板</item>
+        <item>5孔非锁定板</item>
+        <item>6孔L型支持板</item>
+        <item>6孔T型板</item>
+        <item>7孔T型板</item>
+        <item>8孔T型板</item>
+        <item>9孔锁定板</item>
+        <item>10孔非锁定板</item>
+    </string-array>
+    <string-array name="date">
+        <item>白天不亮</item>
+        <item>陈龙</item>
+    </string-array>
+    <string-array name="hangyexinwen">
+        <item>陈旧性肩关节前脱位的治疗分析</item>
+        <item>脊髓损伤临床治疗探索研究取得新突破</item>
+        <item>颈前路内窥镜下松解复位后路内固定治疗难复性寰枢关节垂直脱位</item>
+        <item>颈椎反弓的金标准诊断</item>
+        <item>快速判断深静脉血栓发生概率的新依据</item>
+        <item>髋关节骨性关节炎患者死亡率高</item>
+        <item>氯胺酮全麻前臂骨折儿童效果尚可</item>
+        <item>如何正确打“封闭针”</item>
+    </string-array>
+    <string-array name="linchuanglujing">
+        <item>肱骨干骨折临床路径</item>
+        <item>肱骨髁骨折临床路径</item>
+        <item>胫骨平台骨折临床路径 </item>
+        <item>尺骨鹰嘴骨折临床路径</item>
+        <item>尺桡骨干骨折临床路径</item>
+        <item>股骨髁骨折临床路径</item>
+        <item>髌骨骨折临床路径</item>
+        <item>胫腓骨干骨折临床路径</item>
+    </string-array>
+    <string-array name="zhuanjiagongshi">
+        <item>胫骨平台骨折诊断与治疗的专家共识</item>
+    </string-array>
+
+</resources>

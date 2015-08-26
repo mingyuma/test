@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/qianhuise" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="全身检查"
+                android:textColor="@color/shenhuise" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="   体温：36.9℃，脉搏：84次/分，呼吸：21次/分，血压：108/74mmHg。   \n发育 正常，营养中等，正常面容，表情自如，自主体位，神志清楚，查体合作。   \n全身 皮肤粘膜未发现黄染， 无皮疹、皮下出血 、皮下结节、瘢痕，全身浅表淋巴结未 触及异常肿大。      \n头颅无畸形、眼睑无水肿，睑结膜未见异常 ，巩膜未见黄染，瞳 孔等大同圆 ，对光反射灵敏，外耳道无溢液，乳突区无压痛。   \n鼻无畸形 ，通气 畅，鼻翼无扇动 ，两侧副鼻窦区无压痛。   \n口唇无发绀，伸舌居中，齿龈未见异常 ，口腔粘膜未见异常，扁桃体未见肿大。   \n颈软，无抵抗，颈动脉搏动未及异常 ，颈静脉未见怒张。   \n气管居中，甲状腺无肿大。胸廓两侧对称。呼吸动度双侧对称一致 ，语颤未触及异常。   \n双肺叩诊清音，双肺呼吸音清晰，肺双侧未闻及 干、湿性音啰，未闻及胸膜摩擦音。   \n心前区无隆起，心尖搏动未见异常，叩诊心 浊音界无扩大，心律齐， 心率84次/分，各瓣膜听诊区未闻及病理性杂音，未闻及心包摩擦音。   \n腹平坦，无腹壁静脉曲张，腹部柔软，无压痛、反跳痛。肝脾肋下未触及，Murphy氏征阴性，肾区无叩击痛 ，腹部无移动性浊音 。   \n肠鸣音未见异常。肛门生殖器检查结果：无异常。脊柱 无畸形,正常生理弯曲 ，受伤肢体查体见 专科检查 。   \n其余肢体活动自如，肌力肌张力正常， 双侧肱二头肌、肱三头肌、 膝、跟腱反射未见异常。   \n双侧 Babinski征阴性 ，Hoffmann征阴性。   \n"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/qianhuise" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="专科查体"
+                android:textColor="@color/shenhuise" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="   患者平车推入病房，左膝关节以远明显肿胀，皮下淤青，左小腿、左足肿 胀，左膝关节活动障碍，左踝、左足活动自主，左小腿皮温正常，左足趾末梢血 运好。左小腿中下段以远皮肤感觉较对侧减退，左足背动脉搏动弱，左胫后动脉 搏动可，左膝浮髌试验＋，侧方应力试验与抽屉试验因患者剧痛无法完成。"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/qianhuise" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="X光"
+                android:textColor="@color/shenhuise" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/x_guang"
+            android:layout_width="80dp"
+            android:layout_height="80dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="请你根据X光片结果给出你认为最合理的诊断:" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="骨折位置" />
+
+            <Spinner
+                android:id="@+id/casestudy_spinner1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="骨折 部位" />
+
+            <Spinner
+                android:id="@+id/casestudy_spinner2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="schatzker分型" />
+
+            <Spinner
+                android:id="@+id/casestudy_spinner3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/qianhuise" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="CT片"
+                android:textColor="@color/shenhuise" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/ct"
+            android:layout_width="80dp"
+            android:layout_height="80dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="根据CT资料，请你判断骨折属于胫骨平台骨折三柱分型的哪一种类型" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="三柱分型" />
+
+            <Spinner
+                android:id="@+id/casestudy_spinner4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

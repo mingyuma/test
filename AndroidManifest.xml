@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.imagemanager6"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="22" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 文件写入SD卡权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <!-- 日历权限 -->
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+
+    <application
+        android:name="wyy.application.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/logo7"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="wyy.activity.MainActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity android:name="wyy.activity.ModelDetailActivity" />
+        <activity android:name="wyy.activity.ModelWatchActivity" />
+        <activity android:name="wyy.activity.GridDetailActivity" />
+        <activity android:name="wyy.activity.MedicalRecordListActivity" />
+        <activity android:name="wyy.activity.NewMedicalRecordActivity" />
+        <activity android:name="wyy.activity.FromPeopleList" />
+        <activity android:name="wyy.activity.NewScheduleActivity" />
+        <activity android:name="com.zhy.imageloader.LookPicActivity" />
+        <activity android:name="wyy.activity.ScheduleWatchActivity" />
+        <activity android:name="wyy.activity.MedicalRecordAddtionImageActivity" />
+        <activity android:name="wyy.activity.ImagePagerActivity" />
+        <activity android:name="wyy.activity.ThreeDimensionalModelActivity" />
+        <activity android:name="wyy.activity.LibTempActivity" />
+        <activity android:name="wyy.activity.WatchLibTempActivity" />
+        <activity android:name="wyy.activity.LoginActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="wyy.activity.ChartActivity" />
+        <activity android:name="mmy.activities.CaseDataActivity" />
+        <activity android:name="com.mmy.patient.MainPatientPageActivity" />
+        <activity android:name="com.mmy.patient.MainDoctorDetailActivity" />
+        <activity android:name="wyy.activity.DecisionMakingActivity" />
+        <activity android:name="wyy.activity.SchatzkerActivity" />
+        <activity android:name="passenger.activity.PassengerMainActivity" />
+        <activity android:name="passenger.activity.DiseaseActivity" />
+        <activity android:name="passenger.activity.DiseaseDetailActivity" />
+        <activity android:name="passenger.activity.FindDoctorActivity" />
+        <activity android:name="passenger.activity.SearchDoctorActivity"/>
+   		<activity android:name="wyy.activity.RegisterActivity" />
+        </application>
+
+</manifest>

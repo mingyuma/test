@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">易医·骨专家</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">查找</string>
+    <string name="action_add">添加</string>
+    <string name="menu_group_chat">发起群聊</string>
+    <string name="menu_feedback">意见反馈</string>
+    <string name="menu_addfriend">添加朋友</string>
+    <string name="menu_scan">扫一扫</string>
+    <string name="tab_one">病历</string>
+    <string name="tab_two">图库</string>
+    <string name="tab_four">知识库</string>
+    <string name="tab_three">日程表</string>
+    <string name="lib_1">三维模型</string>
+    <string name="lib_2">行业新闻</string>
+    <string name="lib_3">专家共识</string>
+    <string name="lib_4">会议期刊</string>
+    <string name="lib_5">知识学习</string>
+    <string name="lib_6">临床指南</string>
+    <string name="header_hint_refresh_normal">下拉刷新</string>
+    <string name="header_hint_refresh_ready">松开刷新</string>
+    <string name="header_hint_refresh_loading">正在刷新&#8230;</string>
+    <string name="header_hint_refresh_time">时间：</string>
+    <string name="footer_hint_load_normal">加载更多</string>
+    <string name="footer_hint_load_ready">松开加载更多</string>
+    
+    <!-- network -->
+    <string name="netstate">网络状态</string>
+    <string name="setnetwork">当前网络不可用，是否设置网络？</string>
+    <string name="ok_set">设置</string>
+    <string name="cancel_set">取消</string>
+    <!-- request_dialog -->
+    <string name="sending_request">正在发送请求</string>
+
+    <string name="change_pass_warn">提示 :\n用户名和密码必须是6位以上字母与数字的组合</string>
+</resources>

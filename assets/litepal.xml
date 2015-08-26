@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+
+    <dbname value="imagemanager6" >
+    </dbname>
+
+    <version value="14" >
+    </version>
+
+    <list>
+
+        <mapping class="wyy.bean.TimeImage" />
+
+        <mapping class="wyy.bean.Folder" />
+
+        <mapping class="wyy.bean.People" />
+
+        <mapping class="wyy.bean.Condition" />
+
+        <mapping class="wyy.bean.CalendarEvents" />
+    </list>
+
+</litepal>

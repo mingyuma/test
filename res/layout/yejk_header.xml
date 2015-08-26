@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>   
+ <RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="44dip"
+        android:background="@drawable/yejk_ic_comm_title_bg"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/ivTitleName"
+            style="@style/A1_Font"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="订单详情" />
+
+        <ImageButton
+            android:id="@+id/ivTitleBtnBack"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/yejk_back"
+            android:gravity="center" />
+        
+         <ImageView
+             android:id="@+id/deletePatinent"
+             android:layout_width="30dp"
+             android:layout_height="30dp"
+             android:layout_alignParentRight="true"
+             android:layout_alignParentTop="true"
+             android:layout_marginRight="10dp"
+             android:layout_marginTop="2dp"
+             android:src="@drawable/yejk_delete"
+             android:visibility="gone" />
+
+         <ImageView
+             android:id="@+id/yejk_search_btn"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignBottom="@+id/ivTitleBtnBack"
+             android:layout_alignParentRight="true"
+             android:layout_marginRight="10dp"
+             android:src="@drawable/yejk_search_btn"
+             android:visibility="gone" />
+
+</RelativeLayout>

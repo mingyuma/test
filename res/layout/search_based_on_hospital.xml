@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" >
+    <wyy.widget.ClearEditText
+        android:id="@+id/hospital_filter_edit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:background="@drawable/search_bar_edit_selector"
+        android:drawableLeft="@drawable/search_bar_icon_normal"
+        android:hint="请输入医院名称"
+        android:singleLine="true"
+        android:textSize="15.0dip" />
+   <ListView
+        android:id="@+id/doc_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="@color/chunbai"
+        android:divider="@color/chunbai"
+        android:dividerHeight="4dp"
+        android:padding="10dp" >
+    </ListView>
+
+</LinearLayout>
